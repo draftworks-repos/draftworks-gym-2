@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: "Archivo", sans-serif;
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --color-brand-black: #101010;
+  --color-brand-charcoal: #1A1A1A;
+  --color-brand-darkgrey: #252525;
+  --color-brand-gold: #F2C14E;
+  --color-brand-mustard: #D9A52E;
+  --color-brand-offwhite: #F5F3ED;
+  --color-brand-muted: #A6A39B;
+  --color-brand-border: #35332D;
+}
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color-scheme: dark;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Archivo", sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Custom scrollbar matching dark charcoal and gold accents */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252525;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #35332D;
+}
