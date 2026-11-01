@@ -93,7 +93,7 @@ export const ReviewsCarousel: React.FC = () => {
         <div
           className="flex transition-transform duration-500 ease-out gap-5"
           style={{
-            transform: `translateX(-${currentIndex * (100 / cardsVisible + (cardsVisible > 1 ? 1.5 : 0))}%)`,
+            transform: `translateX(calc(-${currentIndex * (100 / cardsVisible)}% - ${currentIndex * (1.25 / cardsVisible)}rem))`,
           }}
         >
           {GOOGLE_REVIEWS.map((review) => (

@@ -180,7 +180,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenEnquiry 
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-[#1A1A1A] border border-[#35332D] rounded-[3px] p-6 space-y-4">
               <div className="aspect-[16/10] bg-[#252525] rounded-[2px] overflow-hidden">
                 <img

@@ -34,8 +34,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
           />
           {/* Deep black image treatment with warm golden directional fade */}
-          <div className="absolute inset-0 bg-gradient-to-t from-[#101010] via-[#101010]/80 to-[#101010]/50" />
-          <div className="absolute inset-0 bg-[#101010]/40" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#101010] via-[#101010]/80 to-transparent" />
         </div>
 
         {/* Hero Content Container */}
@@ -346,8 +345,8 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenEnquiry })
           </div>
 
           {/* Asymmetric Photography Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {GALLERY_ITEMS.slice(0, 3).map((item, index) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+            {GALLERY_ITEMS.slice(0, 4).map((item, index) => (
               <div
                 key={item.id}
                 onClick={() => openLightboxAt(index)}

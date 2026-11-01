@@ -121,7 +121,7 @@ export const ProgramsCarousel: React.FC<ProgramsCarouselProps> = ({
         <div
           className="flex transition-transform duration-500 ease-out gap-6"
           style={{
-            transform: `translateX(-${currentIndex * (100 / cardsVisible + (cardsVisible > 1 ? 1.5 : 0))}%)`,
+            transform: `translateX(calc(-${currentIndex * (100 / cardsVisible)}% - ${currentIndex * (1.5 / cardsVisible)}rem))`,
           }}
         >
           {PROGRAMS.map((program) => (

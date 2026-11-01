@@ -411,28 +411,28 @@ export const PRICING_PLANS: PricingPlan[] = [
 export const GALLERY_ITEMS = [
   {
     id: "g-1",
-    title: "Eleiko Olympic Lifting Platform",
+    title: "Lifting Platform",
     category: "Lifting Rigs",
     src: "/temp/hero.webp",
     aspect: "16:9"
   },
   {
     id: "g-2",
-    title: "Contrast Recovery Suite & Cold Plunge",
+    title: "Recovery",
     category: "Recovery",
     src: "/temp/recovery.webp",
     aspect: "4:3"
   },
   {
     id: "g-3",
-    title: "Barbell Power Clean & Coaching Assessment",
+    title: "Barbell Power",
     category: "Coaching",
     src: "/temp/split.webp",
     aspect: "16:9"
   },
   {
     id: "g-4",
-    title: "30-Meter Functional Sprint Turf & Sled Track",
+    title: "30-Meter Sprint",
     category: "Turf & Movement",
     src: "/temp/funtional.webp",
     aspect: "4:3"
@@ -446,7 +446,7 @@ export const GALLERY_ITEMS = [
   },
   {
     id: "g-6",
-    title: "Finnish Cedar Sauna & Thermal Suite",
+    title: "Thermal Suite",
     category: "Recovery",
     src: "/temp/recovery.webp",
     aspect: "4:3"
